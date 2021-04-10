@@ -1,0 +1,58 @@
+.details {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+.details img {
+    max-width: 500px;
+    min-width: 300px;
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.details .box {
+    max-width: 500px;
+    min-width: 300px;
+    margin: 25px;
+}
+
+.box .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.box .row h2{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.box .row span {
+    color: brown;
+}
+
+.box .colors button {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.box p {
+    margin: 15px 0;
+    line-height: 1.5;
+}
+
+.box .cart {
+    background: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
